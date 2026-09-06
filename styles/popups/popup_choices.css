@@ -5,6 +5,13 @@
 	width: 500px;
 }
 
+.popup-choices-scroll
+{
+	height: 400px;
+	width: 100%;
+	overflow: squish scroll;
+}
+
 .popup-choices
 {
 	flow-children: down;
@@ -31,4 +38,15 @@
 .popup-choices
 {
 	color: black;
+}
+
+.popup-choices-icon,
+#Icon.popup-choices-icon,
+.popup-choices #Icon.popup-choices-icon {
+    width: 32px;
+    height: 32px;
+    min-width: 32px;
+    min-height: 32px;
+    horizontal-align: center;
+    vertical-align: center;
 }
